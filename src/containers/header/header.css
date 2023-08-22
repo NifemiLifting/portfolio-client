@@ -1,0 +1,112 @@
+.lau__header{
+    display: flex;
+
+}
+.lau__header-content{
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    margin-left: 5rem;
+    flex-direction: column;
+}
+.lau__header-content h3{
+    font-size: 12px;
+    color: var(--color-text);
+}
+.lau__header-content p{
+    font-family: var(--font-family);
+    font-size: 10px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem
+}
+.lau__header-image{
+    padding: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.lau__header-image img{
+    object-fit: contain; /* Fit the image inside its container */
+    height: 100vh; /* Set the height to viewport height */
+    width: auto;
+    /* width: fit-content; */
+    height: 100%;
+}
+.lau__header-image img.header-image {
+    object-fit: contain;
+    height: 100vh;
+    max-width: 100%; /* Set maximum width for the image */
+    width: auto;
+  }
+
+  
+  
+  
+  
+@media screen and (max-width:1050px) {
+    .lau__header{flex-direction: column;}
+    .lau__header h1{
+        margin-top: 60px;
+        font-size:50px ;
+        line-height: 60px;
+    }
+    .lau__header-content{
+        margin: 1rem 2rem 3rem ;
+
+    }
+    .lau__header p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .lau__header-image img.header-image {
+        padding: 0;
+        object-fit: contain;
+        height: 60vh;
+        max-width: 100%; /* Set maximum width for the image */
+        width:auto;
+      }
+   
+    
+}
+@media screen and (max-width:650px) {
+    .lau__header h1{
+        font-size:48px ;
+        line-height: 60px;
+    }
+
+    .lau__header p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .lau__header-image img.header-image {
+        padding: 0;
+        object-fit: contain;
+        height: 60vh;
+        max-width: 100%; /* Set maximum width for the image */
+        width:auto;
+      }
+   
+    
+}
+@media screen and (max-width:490px) {
+    .lau__header h1{
+        font-size:36px ;
+        line-height: 48px;
+    }
+
+    .lau__header p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .lau__header-image img.header-image {
+        padding: 0;
+        object-fit: contain;
+        height: 40vh;
+        max-width: 100%; /* Set maximum width for the image */
+        width:auto;
+      }
+   
+}

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './possibility.css';
 import { Article } from '../../components';
-import { car, master, pone, Wheel, inhaler, drone, Wheel} from './imports'
+import { car, master, pone, Wheel, inhaler, drone } from './imports'
 
 
 const Possibility = () => {

@@ -3,7 +3,7 @@ import './navbar.css';
 import { RiMenu3Lin, RiCloseLin } from 'react-icons/ri';
 import { MdClose, MdMenu } from 'react-icons/md';
 
-import LOGO from '../../assets/logo.png';
+import LOGO from '../../assets/logi.png';
 
 const Menu =()=> {
 <>

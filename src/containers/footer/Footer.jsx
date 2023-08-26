@@ -1,15 +1,15 @@
 import React from 'react';
 import './footer.css';
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logi.png'
 
 const Footer = () => {
   return (
     <div className='lau__footer section__padding' id='blog'>
     <div className='lau__footer-heading'>
-    <h1 className='gradient__text'>Let's step into the future<br/> Contact me </h1>
+    <h1 className='gradient__text'>Let's step into the future.<br/> Contact me </h1>
     </div>
     <div className='lau__footer-btn'>
-      <p><a href='mailto:laughterwork@gmail.com'  target='_blank' rel='noopener noreferrer'>send me a mail</a></p>
+      <p><a href='mailto:laughterwork@gmail.com'  target='_blank' rel='noopener noreferrer'>Send me a mail</a></p>
       
     </div>
     <div className='lau__footer-links'>
@@ -35,7 +35,7 @@ const Footer = () => {
         <img src={Logo}alt='logo'/>
       </div>
     <div className='lau__footer-copyright'>
-      <p>2023 laughter Afolabi. All rights reserved.</p>
+      <p>2023 lifting's Designs. All rights reserved.</p>
     </div>
     </div>
   )

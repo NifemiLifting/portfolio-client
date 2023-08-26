@@ -4,7 +4,7 @@ import { Feature } from '../../components';
 const featuresData =[
   {
     title:'Tire Industrialization Engineer at Michelin',
-    text:'June 2023 - Now. The Product Design & Industrialization Engineer prepares tire designs for mass production, balancing technical and industrial competencies. They work collaboratively with a design team to translate innovation into manufacturing specifications.'
+    text:'June 2023 till present. The Product Design & Industrialization Engineer prepares tire designs for mass production, balancing technical and industrial competencies. They work collaboratively with a design team to translate innovation into manufacturing specifications.'
   },
   {
     title:'Product and Design Engineer at Smartice',

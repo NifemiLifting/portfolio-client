@@ -16,7 +16,7 @@ const App = () => {
         <About/>
         <Features/>
         <Possibility/>
-        <Cta/>
+       
         
         <Footer/>
 

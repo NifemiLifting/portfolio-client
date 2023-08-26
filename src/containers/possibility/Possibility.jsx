@@ -1,15 +1,8 @@
 import React, { useEffect } from 'react';
 import './possibility.css';
 import { Article } from '../../components';
-import { car, master, pone, Wheel, inhaler, drone, wheel} from './imports'
-import Logo from '../../assets/cyborg.jpg'
-import Vibe from '../../assets/robot.jpg'
+import { car, master, pone, Wheel, inhaler, drone, Wheel} from './imports'
 
-import Imag from '../../assets/IMG1.png'
-import Imagef from '../../assets/img2.png'
-import Imagn from '../../assets/img3.png'
-import Imagy from "../../assets/img4.png"
-import Imagey from '../../assets/img5.png'
 
 const Possibility = () => {
   

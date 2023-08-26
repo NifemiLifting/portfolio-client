@@ -1,0 +1,148 @@
+.lau__footer{
+    border: 1px solid white;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-footer);
+}
+.lau__footer-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.lau__footer-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+
+    text-align: center;
+    letter-spacing: -0.04rem;
+}
+.lau__footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    border: 1px solid white;
+    text-align: center;
+
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+.lau__footer-btn p{
+    /* border:1px solid white; */
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    word-spacing: 2px;
+}
+
+.lau__footer-links{
+    display: flex;
+    justify-content: flex-start; /* Align items to the start of the row */
+    align-items: center; /* Vertically align items */
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+}
+.lau__footer-links div{
+    width: 250px;
+    margin: 1rem;
+}
+.lau__footer-links_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align the logo to the start of the column */
+    margin-right: 2rem;
+}
+.lau__footer-links_logo img{
+    width: 118px ;
+    height: 60px;
+
+    margin-bottom: 1rem;
+}
+.lau__footer-links_logo p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color:#ffffff;
+ 
+}
+.lau__footer-links_div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+
+}
+.lau__footer-links_div h4{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.lau__footer-links_div p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+
+    margin: 0.05rem 0;
+    cursor: pointer;
+}
+.lau__footer-copyright{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+
+}
+.lau__footer-copyright p{
+    font-family: var(--font-family);
+    font-size: 11px;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+@media screen and(max-width:490px) {
+
+    .lau__footer-links_div p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 10px;
+    color: #ffffff;
+
+    margin: 0.05rem 0;
+    cursor: pointer;
+ }
+
+.lau__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+    .lau__footer-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        border: 1px solid white;
+        text-align: center;
+        margin-bottom: 3rem;
+        cursor: pointer;
+    }
+}

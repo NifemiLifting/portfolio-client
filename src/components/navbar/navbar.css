@@ -74,7 +74,7 @@ text-transform: capitalize;
     align-items: flex-end;
     flex-direction: column;
     color: #FFFFFF;
-   
+   font-family: var(--font-family);
     text-align: end;
     background: var(--color-bg);
     padding: 2rem;

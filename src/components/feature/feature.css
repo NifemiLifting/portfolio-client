@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-
+    
     margin: 1rem;
 }
 .lau__features-container__feature-title{
@@ -40,4 +40,31 @@
 
     color: var(--color-text);
 
+}
+@media screen and (max-width:550px){
+    .lau__features-container__feature-title h1{
+        font-size: 14px;
+        line-height: 22px;
+        
+    }
+    .lau__features-container__feature-title p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 100px;
+    }
+    .lau__features-container__feature{
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width:550px){
+    
+}
+
+@media screen and (max-width:550px){
+    
+}
+
+@media screen and (max-width:550px){
+    
 }

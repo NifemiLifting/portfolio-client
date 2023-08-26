@@ -27,8 +27,8 @@ const Navbar = () => {
                 <div className='lau__navbar-links_container'>
                     <p><a href='#home'>Home</a></p>
                     <p><a href='#about'>About</a></p>
-                    <p><a href='#possibility'>Projects</a></p>
                     <p><a href='#features'>Experience</a></p>
+                    <p><a href='#possibility'>Projects</a></p>
                     <p><a href='#blog'>Contact me</a></p>
                 </div>
             </div>
@@ -43,8 +43,8 @@ const Navbar = () => {
                         <div className='lau__navbar-menu_container-links'>
                         <p><a href='#home'>Home</a></p>
                         <p><a href='#about'>About</a></p>
-                        <p><a href='#possibility'>Projects</a></p>
                         <p><a href='#features'>Experience</a></p>
+                        <p><a href='#possibility'>Projects</a></p>
                         <p><a href='#blog'>Contact me</a></p>
                         </div>
                     </div>
